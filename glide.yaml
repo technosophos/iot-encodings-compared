@@ -1,0 +1,8 @@
+package: github.com/technosophos/iot-encodings-compared
+import:
+  - package: github.com/gonuts/cbor
+  - package: github.com/ugorji/go
+    repo:    https://github.com/ugorji/go
+    vcs:     git
+    subpackages:
+      - /codec
